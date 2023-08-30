@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogyakarta</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#senibudaya">Seni Budaya</a></li>
+          <li><a href="#wisata">Wisata</a></li>
+          <li><a href="#kuliner">Kuliner</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="content-slide">
+          <div class="imgslide fade">
+            <img src="assets/images/jogja.jpg" alt="" />
+          </div>
+
+          <div class="imgslide fade">
+            <img src="assets/images/candi.jpg" alt="" />
+          </div>
+
+          <div class="imgslide fade">
+            <img src="assets/images/taman.jpg" alt="" />
+          </div>
+
+          <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+          <a class="next" onClick="nextslide(1)">&#10095;</a>
+        </div>
+
+        <div class="page">
+          <span class="dot" onClick="dotslide(1)"></span>
+          <span class="dot" onClick="dotslide(2)"></span>
+          <span class="dot" onClick="dotslide(3)"></span>
+        </div>
+        <h1>Yogyakarta</h1>
+        <p>
+          Yogyakarta, sering disingkat sebagai "Jogja," adalah sebuah kota di
+          Pulau Jawa, Indonesia, dan merupakan salah satu destinasi wisata utama
+          di negara ini. Kota ini memiliki sejarah, budaya, dan warisan yang
+          sangat kaya, serta pemandangan alam yang menakjubkan.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah</h2>
+          <img src="assets/images/tugu.jpg" alt="sejarah" class="fotojogja" />
+          <p>
+            Awal sejarah Yogyakarta bermula dari Kerajaan Mataram yang didirikan
+            pada abad ke-8 Masehi. Mataram berkembang menjadi salah satu
+            kerajaan terkuat di Pulau Jawa. Pada abad ke-18, Mataram terpecah
+            menjadi dua kerajaan yang terpisah, yaitu Kesultanan Yogyakarta dan
+            Kesultanan Surakarta. Kesultanan Yogyakarta didirikan oleh Sultan
+            Hamengkubuwono I pada tahun 1755. <br />
+            Yogyakarta adalah pusat budaya dan sejarah di Indonesia. Kota ini
+            merupakan bekas ibu kota Kerajaan Mataram, dan warisan sejarahnya
+            dapat ditemukan di berbagai tempat, termasuk Keraton Yogyakarta
+            (istana kerajaan), yang merupakan salah satu daya tarik utama.
+          </p>
+        </article>
+
+        <article id="senibudaya" class="card">
+          <h2>Seni Budaya</h2>
+          <p>
+            Yogyakarta dikenal karena seni dan budayanya yang kaya. Seni wayang
+            kulit, tari Jawa, dan musik gamelan adalah bagian integral dari
+            kehidupan kota ini. Ada banyak pertunjukan seni yang dapat dinikmati
+            oleh wisatawan. Seni budaya Yogyakarta adalah warisan budaya yang
+            sangat kaya dan beragam, mencerminkan identitas dan tradisi
+            masyarakat Jawa.
+          </p>
+
+          <section>
+            <h3>Wayang Kulit</h3>
+            <img
+              src="assets/images/wayang.jpg"
+              alt="wayang"
+              class="fotojogja"
+            />
+            <p>
+              Wayang kulit adalah bentuk teater kulit tradisional Jawa yang
+              menggunakan boneka kulit yang diproyeksikan di layar putih.
+              Pertunjukan wayang kulit sering menggambarkan kisah epik dari
+              Mahabharata atau Ramayana dan disertai dengan gamelan, alat musik
+              tradisional Jawa. Wayang kulit adalah seni pertunjukan yang
+              penting dalam budaya Jawa dan sering digunakan untuk menyampaikan
+              pesan moral dan budaya.
+            </p>
+          </section>
+
+          <section>
+            <h3>Tarian Jawa</h3>
+            <img src="assets/images/tari.jpg" alt="tari" class="fotojogja" />
+            <p>
+              Tari klasik Jawa, seperti tari Ramayana, tari Srimpi, dan tari
+              Legong, adalah bagian penting dari seni pertunjukan tradisional
+              Yogyakarta. Tarian-tarian ini menggabungkan gerakan yang indah dan
+              simbolisme yang dalam, sering kali menggambarkan cerita-cerita
+              klasik atau mitologi Hindu.
+            </p>
+          </section>
+
+          <section>
+            <h3>Batik</h3>
+            <img src="assets/images/batik.jpg" alt="batik" class="fotojogja" />
+            <p>
+              Batik adalah teknik pewarnaan kain khas Indonesia yang melibatkan
+              penggunaan lilin panas untuk mencegah pewarnaan pada bagian-bagian
+              tertentu dari kain. Yogyakarta dikenal sebagai salah satu pusat
+              produksi batik terbaik di Indonesia. Batik Yogyakarta sering
+              memiliki desain yang rumit dan berwarna-warni.
+            </p>
+          </section>
+        </article>
+
+        <article id="wisata" class="card">
+          <h2>Wisata</h2>
+          <p>
+            Sekitar Yogyakarta terdapat banyak destinasi wisata alam yang
+            menarik. Gunung Merapi, salah satu gunung berapi aktif paling
+            terkenal di Indonesia, dapat dijelajahi melalui trekking. Di sekitar
+            kota, terdapat juga goa-goa menakjubkan seperti Goa Jomblang yang
+            dapat dieksplorasi.
+          </p>
+
+          <section>
+            <h3>Gunung Merapi</h3>
+            <img
+              src="assets/images/merapi.jpg"
+              alt="gunung merapi"
+              class="fotojogja"
+            />
+            <p>
+              Gunung Merapi terletak di Pulau Jawa, Indonesia, sekitar 28
+              kilometer sebelah utara Yogyakarta dan 40 kilometer sebelah
+              selatan Kota Semarang. Gunung ini merupakan bagian dari Cincin Api
+              Pasifik, yang merupakan zona seismik aktif di dunia. Nama "Merapi"
+              dalam bahasa Jawa berarti "Gunung Api." Nama ini merujuk pada
+              aktivitas vulkanik gunung ini yang sangat sering meletus.<br />
+              Meskipun berbahaya, Merapi juga menawarkan pemandangan alam yang
+              spektakuler. Di sekitar gunung ini, terdapat lereng-lereng yang
+              subur, sawah-sawah, dan hutan tropis yang indah.
+            </p>
+          </section>
+
+          <section>
+            <h3>Goa Jomblang</h3>
+            <img
+              src="assets/images/goajomblang.jpg"
+              alt="goa jomblang"
+              class="fotojogja"
+            />
+            <p>
+              Goa Jomblang terletak di Kecamatan Semanu, Kabupaten Gunung Kidul,
+              sekitar 50 kilometer sebelah selatan Yogyakarta. Goa ini berada di
+              tengah kawasan karst yang kaya akan formasi batu kapur yang indah.
+              Salah satu daya tarik utama Goa Jomblang adalah cahaya alami yang
+              masuk melalui lubang goa di atas. Ini menciptakan efek visual yang
+              spektakuler saat cahaya matahari menembus ke dalam goa dan
+              memantul di permukaan tanah di dalamnya. Formasi batu kapur yang
+              tinggi dan stalaktit yang menjuntai menambah keindahan goa ini.
+            </p>
+          </section>
+
+          <section>
+            <h3>Candi Prambanan</h3>
+            <img
+              src="assets/images/prambanan.jpg"
+              alt="prambanan"
+              class="fotojogja"
+            />
+            <p>
+              Candi Prambanan adalah sebuah kompleks candi Hindu yang luar biasa
+              yang terletak di Yogyakarta, Indonesia. Ini adalah salah satu
+              situs warisan dunia UNESCO yang paling terkenal di Indonesia dan
+              merupakan salah satu contoh paling indah dari arsitektur candi
+              Hindu di Asia Tenggara.<br />
+              Candi Prambanan terletak di Klaten, Jawa Tengah, sekitar 17
+              kilometer timur laut Kota Yogyakarta. Candi ini mudah diakses dari
+              kota-kota terdekat dan menjadi tujuan wisata yang populer di
+              wilayah tersebut.<br />
+              Candi Prambanan dibangun pada abad ke-9 Masehi selama pemerintahan
+              Dinasti Mataram. Ini adalah kompleks candi Hindu terbesar yang
+              pernah dibangun di Indonesia dan menjadi pusat keagamaan dan
+              budaya pada masanya.
+            </p>
+          </section>
+        </article>
+
+        <article id="kuliner" class="card">
+          <h2>Kuliner</h2>
+          <p>
+            Kuliner Yogyakarta adalah sebuah perjalanan tak terlupakan melalui
+            cita rasa yang memikat, aroma yang menggoda, dan tradisi kuliner
+            yang kaya. Kota ini tidak hanya memiliki keindahan alam dan warisan
+            budaya yang luar biasa, tetapi juga menyuguhkan hidangan-hidangan
+            yang lezat yang mencerminkan kekayaan budaya Jawa.
+          </p>
+
+          <section>
+            <h3>Gudeg</h3>
+            <img src="assets/images/gudeg.jpg" alt="gudeg" class="fotojogja" />
+            <p>
+              Gudeg adalah hidangan khas Yogyakarta yang terbuat dari nangka
+              muda yang dimasak dengan santan, gula merah, daun salam, dan
+              rempah-rempah. Biasanya disajikan dengan ayam, telur, dan sambal
+              krecek (kulit sapi yang dimasak hingga renyah). Gudeg memiliki
+              rasa manis yang unik dan tekstur yang lembut.
+            </p>
+          </section>
+
+          <section>
+            <h3>Bakpia</h3>
+            <img
+              src="assets/images/bakpia.jpg"
+              alt="bakpia"
+              class="fotojogja"
+            />
+            <p>
+              Bakpia adalah kue khas Yogyakarta berisi pasta kacang hijau, keju,
+              atau cokelat. Makanan ringan ini memiliki lapisan kulit yang
+              lembut dan isian yang manis.
+            </p>
+          </section>
+
+          <section>
+            <h3>Wedang Uwuh</h3>
+            <img
+              src="assets/images/wedang.jpg"
+              alt="wedang"
+              class="fotojogja"
+            />
+            <p>
+              Wedang Uwuh adalah minuman tradisional Jawa yang berasal dari
+              Yogyakarta dan Jawa Tengah, Indonesia. Minuman ini dikenal dengan
+              rasa harum dan hangatnya, dan biasanya disajikan dalam keadaan
+              panas. Nama "Wedang Uwuh" sendiri berasal dari bahasa Jawa, di
+              mana "wedang" berarti minuman atau ramuan, dan "uwuh" berarti
+              rempah-rempah atau daun-daunan.
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Yogyakarta</h2>
+            <p>Kota Pelajar</p>
+            <figure>
+              <img src="assets/images/logo.png" class="profile-img" />
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
+
+          <section class="informasi">
+            <h2>Informasi Lainnya</h2>
+
+            <table>
+              <tr>
+                <th>Negara</th>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <th>Hari jadi</th>
+                <td>27 Oktober 1756</td>
+              </tr>
+              <tr>
+                <th>Luas Total</th>
+                <td>3.186 km<sup>2</sup></td>
+              </tr>
+              <tr>
+                <th>Bahasa Daerah</th>
+                <td>Jawa</td>
+              </tr>
+              <tr>
+                <th>Kode Telepon</th>
+                <td>+62 74</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p class="copyright">Eric Davinsen &#169; 2023, Yogyakarta</p>
+    </footer>
+  </body>
+  <script src="/assets/scripts/script.js"></script>
+</html>
